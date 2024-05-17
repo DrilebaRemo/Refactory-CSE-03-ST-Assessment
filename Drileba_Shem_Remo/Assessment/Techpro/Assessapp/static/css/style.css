@@ -20,7 +20,21 @@ h2{
 .container-image{
     background-color: RGB(12, 95, 82);;
 }
-input:invalid{
+.success{
+    text-align: center;
+    color: white;
+    background-color: lawngreen;
+}
+.message{
+    text-align: center;
+    color: white;
+}
+.error{
+    color: white;
+    text-align: center;
+    background-color: red;
+}
+/*input:invalid{
     border: 1px solid red;
 }
 select:invalid{
@@ -29,40 +43,11 @@ select:invalid{
 input:valid{
     border: 1px solid green;
 }
-/*.form-row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 1em;
-}
-.form-row div {
-    flex: 1;
-    margin-right: 1em;
-}
-.form-row div:last-child {
-    margin-right: 0;
-}
-.form-group {
-    flex-direction: column;
-    display: flex;
-    flex-direction: column;
-}*/
-/*.form-group label {
-    margin-bottom: 0.5em;
-}
-.form-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1em;
-    margin-bottom: 1em;
-}
-.form-container .full-width {
-    grid-column: span 2;
-}*/
+*/
 .regb{
     background-color: RGB(12, 95, 82);
     float:right;
     color: aliceblue;
-    width: 50%;
 }
 .form-container {
     display: flex;
